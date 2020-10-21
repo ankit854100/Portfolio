@@ -315,7 +315,7 @@ h3 {
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 481px) {
   .aboutIntro {
     width: 100%;
   }
@@ -336,5 +336,32 @@ h3 {
   .carousel-item p {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+@media (min-width: 801px){
+  .aboutIntro {
+    display: inline-block;
+    width: 50%;
+    float: left;
+  }
+
+  .skill {
+    display: inline-block;
+    width: 50%;
+    background-color: #f1f3f8;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  #home {
+    width: 100%;
+    background-color: #393b44;
+    color: white;
+    height: 100vh;
+  }
+
+  .carousel-item p {
+    padding: 3.5rem;
   }
 }
