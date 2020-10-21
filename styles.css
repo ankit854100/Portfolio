@@ -316,6 +316,30 @@ h3 {
 
 
 @media (max-device-width: 768px) {
+  h1{
+    font-size: 5rem;
+  }
+
+  h1{
+    font-size: 4.5rem;
+  }
+
+  h3{
+    font-size: 4rem;
+  }
+
+  p{
+    font-size: 3rem;
+  }
+
+  span{
+    font-size: 3rem;
+  }
+
+  a{
+    font-size: 3rem;
+  }
+
   .aboutIntro {
     width: 100%;
   }
@@ -324,6 +348,15 @@ h3 {
     width: 100%;
     padding: 3rem;
     text-align: center;
+    margin: 3rem auto;
+  }
+
+  .skill h2{
+    margin-bottom: 3rem;
+  }
+
+  .skill span{
+    font-size: 1.2rem;
   }
 
   #home {
