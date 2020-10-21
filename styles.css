@@ -315,7 +315,7 @@ h3 {
 }
 
 
-@media (min-width: 481px) {
+@media (max-device-width: 768px) {
   .aboutIntro {
     width: 100%;
   }
@@ -339,7 +339,7 @@ h3 {
   }
 }
 
-@media (min-width: 801px){
+/* @media (min-width: 801px){
   .aboutIntro {
     display: inline-block;
     width: 50%;
@@ -364,4 +364,4 @@ h3 {
   .carousel-item p {
     padding: 3.5rem;
   }
-}
+} */
