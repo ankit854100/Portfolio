@@ -320,7 +320,7 @@ h3 {
     font-size: 5rem;
   }
 
-  h1{
+  h2{
     font-size: 4.5rem;
   }
 
@@ -338,6 +338,12 @@ h3 {
 
   a{
     font-size: 3rem;
+  }
+
+  .homeContent div{
+    border-radius: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .aboutIntro {
@@ -359,6 +365,10 @@ h3 {
     font-size: 1.2rem;
   }
 
+  .skill-bar-percent{
+    font-size: 1.8rem;
+  }
+
   #home {
     width: 100%;
     background-color: #393b44;
@@ -367,8 +377,13 @@ h3 {
   }
 
   .carousel-item p {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0;
+  }
+
+  #contact div{
+    border-radius: 4rem;
   }
 }
 
